@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Gather
+      input="speech" language="en-US" enhanced="true" speechModel="phone_call" hints="1,2,3,4,5,6,7,8,9,0,$OOV_CLASS_DIGIT_SEQUENCE"
+      speechTimeout="3" timeout="4" numDigits="16"
+      action="https://webhooks.twilio.com/v1/Accounts/ACxxxx/Flows/FWxxxx?FlowEvent=return">
+    <Say>Please tell me your card number</Say>
+  </Gather>
+</Response>
