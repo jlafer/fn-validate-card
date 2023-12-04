@@ -1,6 +1,7 @@
 {
   "name": "fn-validate-card",
   "version": "0.0.0",
+  "description": "A Twilio Serverless function and TwiML bin demonstrating CC card Gather and validation",
   "private": true,
   "scripts": {
     "test": "jest",
